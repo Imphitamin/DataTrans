@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="bg_main">#FF000000</color>
+    <color name="bg_text">#FFFFFFFF</color>
+
+    <color name="but_clr">#FFFFB8C5</color>
+
+    <color name="sec_clr">#4BFFB8C5</color>
+
+</resources>

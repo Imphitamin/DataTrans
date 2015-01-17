@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/LinearLayout1"
+    android:padding="15dip"
+    android:background="@color/sec_clr">
+
+    <TextView
+        android:id="@+id/choose_answer_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sec_answer_text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="17sp"
+        android:layout_marginTop="5sp"
+        android:textColor="@color/bg_main"/>
+
+    <RadioGroup
+        android:id="@+id/radio_group1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3sp">
+
+        <RadioButton
+            android:id="@+id/radioPapa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:onClick="onRadioClick"
+            android:text="Папа" />
+
+        <RadioButton
+            android:id="@+id/radioMama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioClick"
+            android:text="Мама" />
+
+        <RadioButton
+            android:id="@+id/radioDanya"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioClick"
+            android:text="Сам всё съел"/>
+
+        </RadioGroup>
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Kolbasa</string>
+    <string name="sec_name">Who did that?</string>
+    <string name="action_settings">Настройки</string>
+
+    <string name="s_question_one">Кто подставил Даньку?</string>
+    <string name="s_question_two">Кто этот гад, который украл колбасу?</string>
+
+    <string name="s_button_go">Сделать выбор</string>
+
+    <string name="sec_answer_text">Выберите правильный ответ</string>
+
+    <string name="danka_desc">Данька ;)</string>
+    <string name="kolbasa_desc">Колбаса украдена или съедена</string>
+
+
+</resources>
