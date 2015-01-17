@@ -6,14 +6,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
 
-    <ImageView
-        android:id="@+id/image_title"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:adjustViewBounds="true"
-        android:scaleType="centerCrop"
-        android:src="@drawable/danka"
-        android:contentDescription="@string/danka_desc"/>
+
 
     <TextView
         android:id="@+id/question_one"
@@ -63,16 +56,6 @@
         android:onClick="onClick"/>
 
 
-    <ImageView
-        android:id="@+id/kolbasa_title"
-        android:layout_width="280sp"
-        android:layout_height="200sp"
-        android:adjustViewBounds="true"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@+id/button_go"
-        android:layout_marginTop="5sp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/kolbasa_image"
-        android:contentDescription="@string/kolbasa_desc"/>
+
 
 </RelativeLayout>

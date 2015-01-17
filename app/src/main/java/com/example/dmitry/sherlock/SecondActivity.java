@@ -1,14 +1,14 @@
 package com.example.dmitry.sherlock;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.View;
 
 /**
- * Created by Dmitry on 16.01.2015.
+ * Created by Dmitry on 16.01.2015.GGWP
  */
-public class SecondActivity extends Activity {
+public class SecondActivity extends ActionBarActivity {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
